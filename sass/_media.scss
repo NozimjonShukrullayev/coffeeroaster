@@ -1,0 +1,132 @@
+// MEDIAS
+@media only screen and (max-width: 991px) {
+  .hero__body {
+    max-height: 500px;
+    background-size: 1068px 500px;
+    background-position: -181px 0px !important;
+    & .row {
+      padding: 69px 38px 69px 68px !important;
+    }
+    & h1 {
+      font-size: 3rem;
+      line-height: 3.3rem;
+    }
+  }
+  .text-start {
+    text-align: start;
+  }
+
+  #collection {
+    padding: 164px 0 124px 0;
+    .bg__writing {
+      font-size: 80px;
+      letter-spacing: 0.29px;
+    }
+  }
+
+  #services {
+    min-height: 1588px !important;
+    .services__desc {
+      width: 105%;
+      padding: 80px 0 0 0;
+      min-height: 967px;
+    }
+
+    .services__cards {
+      top: -540px;
+      .card.card-active {
+        margin-top: 25px;
+        text-align: start;
+        max-width: 100% !important;
+        min-height: 320px !important;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 79% !important;
+  }
+  .text-start {
+    text-align: center !important;
+  }
+  .site-navbar {
+    padding: 10px 15px;
+    .logo {
+      width: 182.31px !important;
+      height: 37.31px !important;
+    }
+    .navbar__nav {
+      display: none;
+    }
+    .nav__toggle {
+      display: block;
+    }
+  }
+  .hero__body {
+    max-height: 600px;
+    min-height: 322px;
+    text-align: center;
+    background-size: cover;
+    background-position: -391px 4px !important;
+    & .row {
+      padding: 55px 9px 38px 36px !important;
+    }
+    & h1 {
+      font-size: 40px;
+      line-height: 40px;
+    }
+  }
+
+  #collection {
+    padding: 144px 0 104px 0; 
+    .bg__writing {
+      font-size: 40px;
+      letter-spacing: 0.29px;
+    }
+  }
+
+  #services {
+    min-height: 1780px !important;
+    .services__desc {
+      padding: 40px 0 0 0;
+      min-height: 1197px !important;
+    }
+    .services__cards {
+      top: -780px !important;
+  
+      .card.card-active {
+        margin-bottom: 25px;
+        width: 99% !important;
+        text-align: center !important;
+      }
+    }
+  }
+
+  .long__line hr, .bi.bi-circle {
+    display: none;
+  }
+  .work__cards {
+    text-align: center;
+  }
+
+  .footer__nav__item {
+    margin: 8px 0;
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #services {
+    min-height: 1920px !important;
+  }
+  .services__cards {
+    top: -740px !important;
+  
+    .card.card-active {
+      margin-bottom: 25px;
+      width: 98% !important;
+    }
+  }
+}

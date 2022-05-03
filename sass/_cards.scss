@@ -1,0 +1,16 @@
+//CARDS
+.card {
+  border-radius: 8px;
+  padding: 32px 28px;
+  background: $card-bg;
+  transition: $hover-time;
+
+  &:hover {
+    background: $pale-orange;
+  }
+
+  &.card-active {
+    color: $light-cream;
+    background: $dark-cyan;
+  }
+}

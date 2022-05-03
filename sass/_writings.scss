@@ -1,0 +1,49 @@
+//WRITINGS
+.big-title {
+  font-weight: $font-900;
+  color: $grey !important;
+  text-transform: lowercase;
+  font-size: 150px !important;
+  line-height: 72px !important;
+}
+h1, h2, h3, h4 {
+  font-weight: $font-900;
+  color: $dark-grey-blue;
+}
+h1 {
+  font-size: 72px;
+  line-height: 72px;
+}
+h2 {
+  font-size: 40px;
+  line-height: 48px;
+}
+h3 {
+  font-size: 32px;
+  line-height: 36px;
+}
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+}
+p {
+  opacity: 0.8;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: $font-400;
+  color: $dark-grey-blue;
+  mix-blend-mode: normal;
+  font-family: 'Barlow', sans-serif;
+}
+.text__uppercase {
+  text-transform: uppercase;
+}
+.text__capitalize {
+  text-transform: capitalize;
+}
+.text__lowercase {
+  text-transform: lowercase;
+}
+.text-center {
+  text-align: center;
+}

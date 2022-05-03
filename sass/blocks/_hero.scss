@@ -1,0 +1,43 @@
+// HERO
+.site-navbar {
+  position: relative;
+  .nav__link {
+    color: $grey;
+    font-size: 12px;
+    line-height: 15px;
+    transition: $hover-time;
+    letter-spacing: 0.923077px;
+    font-weight: 700 !important;
+    font-family: "Barlow", sans-serif;
+  
+    &:hover {
+      color: $dark-grey-blue;
+    }
+  }
+  .nav__toggle {
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: none;
+    background: transparent;
+    .bi.bi-list {
+      margin: 0;
+      padding: 0;
+      font-size: 25px;
+      color: $dark-grey-blue;
+    }
+  }
+}
+.hero__body {
+  min-height: 500px;
+  max-height: 600px;
+  border-radius: 8px;
+  background-size: 100%;
+  background: url("../images/Bitmap.jpg") no-repeat;
+  & .row {
+    padding: 69px 85px !important;
+  }
+  & h1, p {
+    color: $light-cream !important;
+  }
+}

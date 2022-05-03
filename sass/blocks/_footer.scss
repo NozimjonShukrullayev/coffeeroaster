@@ -1,0 +1,28 @@
+// FOOTER 
+.container__fluid {
+  background: $dark-grey-blue;
+  margin-top: 140px;
+  padding: 35px 0;
+  border-radius: 2px;
+
+  .footer__nav__link {
+    font-size: 12px;
+    font-weight: 700;
+    color: #83888f;
+    line-height: 15px;
+    transition: $hover-time;
+    letter-spacing: 0.923077px;
+    font-family: "Barlow", sans-serif;
+    &:hover {
+      color: $light-cream;
+    }
+  }
+  .social__link .bx[class*="bxl-"] {
+    font-size: 29px;
+    color: $light-cream;
+    transition: $hover-time;
+    &:hover {
+      color: $pale-orange;
+    }
+  }
+}

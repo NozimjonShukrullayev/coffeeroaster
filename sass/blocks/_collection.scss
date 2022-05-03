@@ -1,0 +1,18 @@
+// COLLECTION
+#collection {
+  position: relative;
+  padding: 194px 0 144px 0;
+  .bg__writing {
+    left: 0%;
+    top: -78px;
+    width: 100%;
+    color: $grey;
+    height: 128px;
+    opacity: 0.15;
+    font-size: 130px;
+    position: absolute;
+    letter-spacing: 6px;
+    padding: 0 0 30px 0;
+    background: linear-gradient(180deg, #d6d4ce00 0%, #fefcf7 100%);
+  }
+}

@@ -1,0 +1,17 @@
+// WORK SECTION
+.long__line hr {
+  width: 70%;
+  height: 1.5px;
+  bottom: -100px;
+  position: relative;
+  left: 0% !important;
+  display: inline-block;
+  background-color: $pale-orange;
+}
+.bi.bi-circle {
+  font-size: 22px;
+  color: $dark-cyan;
+}
+.work__number {
+  color: $pale-orange;
+}

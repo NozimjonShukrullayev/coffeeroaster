@@ -1,0 +1,30 @@
+// SERVICES
+  #services {
+    max-height: 948px;
+    .services__desc {
+      width: 102.4%;
+      margin: 0 -15px;
+      padding: 100px 0;
+      min-height: 637px;
+      border-radius: 8px;
+      background: #2c343e;
+  
+      .services__desc__title, .services__desc__text {
+        color: $light-cream !important;
+      }
+    }
+    .services__cards {
+      top: -240px;
+      position: relative;
+  
+      .card.card-active {
+        width: 31%;
+        min-width: 268px;
+        min-height: 402px;
+  
+        .card__title, .card__text {
+          color: $light-cream;
+        }
+      }
+    }
+  }

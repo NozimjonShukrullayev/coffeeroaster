@@ -1,0 +1,23 @@
+//BUTTONS
+.main-button {
+  width: 217px;
+  height: 56px;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 15.5px 0;
+  text-align: center;
+  border-radius: 6px;
+  color: $light-cream;
+  transition: $hover-time;
+  display: inline-block;
+  background: $dark-cyan;
+  font-weight: $font-900;
+
+  &:hover {
+    background: #66d2cf;
+  }
+
+  &:active {
+    background: #e2dedb;
+  }
+}
